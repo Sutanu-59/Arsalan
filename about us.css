@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.ban {
+    background-image: url("./topback.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.banrap {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+}
+
+.navrap {
+    height: 10vh;
+    width: 100%;
+    margin: auto;
+}
+
+.navrap ul {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.navrap ul li {
+    display: inline;
+    padding-left: 30px;
+}
+
+.navrap ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px gold;
+    font-style: italic;
+    padding: 15px;
+}
+
+.navrap ul li :hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 50% 50% 50% 50%;
+    background-color: rgba(0, 0, 0, 0.17);
+    color: gold;
+    text-shadow: 1px 1px red;
+}
+
+.heading {
+    width: 50%;
+    margin: auto;
+    margin-top: 130px;
+    border: 5px double yellow;
+    border-width: 10px;
+}
+
+.ostory {
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+}
+
+/* .image {
+    background-size: cover;
+    height:100vh;
+    width:50%
+} */
+.story {
+    width: 90%;
+}
+
+.black {
+    height: 220px;
+    background-color: black;
+}
+
+.num {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.flavour {
+    height: 110vh;
+    width: 90%;
+    margin: auto;
+}
+.desc {
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-image:linear-gradient(to top left,yellow,black,red);
+    border-radius: 25px;
+    padding:30px;
+    padding-top: 70px;
+}
+
+.desc:hover {
+    background-image:linear-gradient(to top left,red,black,yellow);
+}
+.last {
+    height:70vh;
+    width:80%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+}
+.footer {
+    text-align: center;
+    height: 60vh;
+    background-color: black;
+}
+.footerrap {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: auto auto;
+}
+
+.fbox ul li {
+    display: inline;
+    margin: 2px
+}
+
+.fbox ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: azure;
+}
+
+.fbox ul li a:hover {
+    text-decoration: underline dashed rgb(248, 220, 4);
+    color: rgb(173, 246, 117);
+}
+
+.ficons a i {
+    margin: 5px;
+}

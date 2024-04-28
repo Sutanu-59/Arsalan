@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.ban {
+    background-image: url("./topback.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.banrap {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+}
+
+.navrap {
+    height: 10vh;
+    width: 100%;
+    margin: auto;
+}
+
+.navrap ul {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.navrap ul li {
+    display: inline;
+    padding-left: 30px;
+}
+
+.navrap ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px gold;
+    font-style: italic;
+    padding: 15px;
+}
+
+.navrap ul li :hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 50% 50% 50% 50%;
+    background-color: rgba(0, 0, 0, 0.17);
+    color: gold;
+    text-shadow: 1px 1px red;
+}
+
+.heading {
+    width: 50%;
+    margin: auto;
+    margin-top: 130px;
+    border: 5px double yellow;
+    border-width: 10px;
+}
+.gallery {
+    display: grid;
+    row-gap: 20px;
+}
+
+.grap {
+    width: 98%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.pic {
+    position: relative;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.overlay {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(0,0,0,0.3)
+}
+.overlay p {
+    font-size: 50px;
+    text-align: center;
+    padding-top:70px;
+    font-family: cursive;
+    color:yellow;
+    text-shadow: 2px 5px red;
+}
+.pic:hover .overlay {
+    opacity: 1;
+    height: 98%;
+}
+.footer {
+    text-align: center;
+    height: 60vh;
+    background-color: black;
+}
+.footerrap {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: auto auto;
+}
+
+.fbox ul li {
+    display: inline;
+    margin: 2px
+}
+
+.fbox ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: azure;
+}
+
+.fbox ul li a:hover {
+    text-decoration: underline dashed rgb(248, 220, 4);
+    color: rgb(173, 246, 117);
+}
+
+.ficons a i {
+    margin: 5px;
+}
